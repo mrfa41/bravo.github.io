@@ -1,0 +1,177 @@
+body {
+    color: rgb(36, 53, 129);
+    background-color: rgb(203, 210, 208);
+}
+
+#heading {
+    margin-top: 100px;
+    height: 650px;
+}
+
+#header {
+    text-align: center;
+    font-size: 29px;
+}
+
+.header {
+    font-weight: 900;
+}
+
+/*Content*/
+.contentbox {
+    border: 1px solid rgb(146, 149, 166);
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px white, -1px 1px 5px white;
+    height: 330px;
+    width: 420px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contextheader {
+    color: black;
+    margin: 10px;
+    font-size: 23px;
+    font-weight: 200;
+    text-align: center;
+}
+
+.contexteditor {
+    height: 50px;
+    width: 80%;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+}
+
+#button {
+    background-color: rgb(36, 53, 129);
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#button:hover {
+    cursor: pointer;
+}
+
+#targetblock {
+    text-align: center;
+}
+
+.targetlink {
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.targetlink:hover {
+    text-decoration: underline;
+}
+
+/*Footer starts*/
+.footer {
+    height: 200px;
+    width: 65%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px;
+}
+
+#languages {
+    height: 20px;
+    text-align: center;
+}
+
+.languagesdome {
+    text-decoration: none;
+    margin-left: 20px;
+    color: grey;
+}
+
+.languagesdome:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+.targetblocks {
+    color: grey;
+    text-decoration: none;
+    line-height: 20px;
+    margin-left: 15px;
+}
+
+.targetblocks:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+.meta-link {
+    text-align: right;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+/*Footer Ends*/
+@media screen and (max-width:900px) {
+    #languages {
+        height: 60px;
+        text-align: center;
+        padding: 5px;
+        box-sizing: border-box;
+    }
+
+    #blocks {
+        height: 100px;
+        text-align: center;
+        padding: 5px;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .meta-link {
+        text-align: right;
+        padding-top: 20px;
+        padding-right: 20px;
+        margin-top: -100px;
+    }
+
+    .footer {
+        font-size: 14px;
+        height: 400px;
+        margin-top: -150px;
+    }
+
+    #languages {
+        height: 100px;
+        text-align: center;
+        padding: 5px;
+        box-sizing: border-box;
+    }
+
+    #blocks {
+        height: 300px;
+        text-align: center;
+        padding: 1px;
+        box-sizing: border-box;
+    }
+
+    .header {
+        margin-top: -100px;
+        margin-left: -100px;
+    }
+
+    .contexteditor {
+        margin-left: 15px
+    }
+
+    .targetlink {
+        margin-left: 5px
+    }
+}
